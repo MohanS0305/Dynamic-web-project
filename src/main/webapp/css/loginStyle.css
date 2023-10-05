@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../assets/login-bg.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  color: aliceblue;
+  border: 4px solid rgba(255, 255, 255, .2);
+  border-radius: 6px;
+  backdrop-filter: blur(20px);
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  background-color: transparent;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.input-box input {
+  padding: 6px 28px 6px 10px;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 15px;
+  outline: none;
+  font-size: 14px;
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.input-box input::placeholder {
+  color: aliceblue;
+}
+
+.input-box input::selection {
+  color: rgb(0, 0, 0);
+}
+
+i{
+  position: absolute;
+  top: 8%;
+}
+
+.bx-envelope {
+  right: 6%;
+}
+
+.bxs-lock-alt {
+  top: 58%;
+  right: 5%;
+}
+
+.remember-forget-container {
+  font-size: 12px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.remember-forget-container input {
+  accent-color: antiquewhite;
+  cursor: pointer;
+}
+
+
+.remember-forget-container a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: aliceblue;
+}
+
+button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0px;
+  font-size: 13px;
+  padding: 4px 0px;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+}
+
+.register {
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.register a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
